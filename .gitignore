@@ -1,0 +1,70 @@
+##############################
+## Java
+##############################
+.mtj.tmp/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+replay_pid*
+
+##############################
+## Maven
+##############################
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+pom.xml.bak
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+##############################
+## Angular
+##############################
+# compiled output
+/src/main/fe/angularclient/dist
+/src/main/fe/angularclient/tmp
+/src/main/fe/angularclient/out-tsc
+/src/main/fe/angularclient/.angular/
+
+# dependencies
+/src/main/fe/angularclient/node_modules/
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+/src/main/fe/angularclient/.vscode/
+
+# IDE - VSCode
+/src/main/fe/angularclient/.vscode/*
+!/src/main/fe/angularclient/.vscode/settings.json
+!/src/main/fe/angularclient/.vscode/tasks.json
+!/src/main/fe/angularclient/.vscode/launch.json
+!/src/main/fe/angularclient/.vscode/extensions.json
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+
+# System Files
+.DS_Store
+Thumbs.db
+

@@ -1,0 +1,20 @@
+version: "3.9"
+services:
+  backend:
+    image: demo
+    container_name: demo
+    build:
+      context: ./
+      dockerfile: backend.dockerfile
+    ports:
+      - "8080:80"
+  frontend:
+    image: demo-ui
+    container_name: demo-ui
+    build:
+      context: ./
+      dockerfile: frontend.dockerfile
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
