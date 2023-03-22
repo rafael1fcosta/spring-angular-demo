@@ -29,20 +29,4 @@ public class DemoApplication {
         };
     }
 
-//    @Bean
-//    public WebMvcConfigurer corsConfigurer()
-//    {
-//        String[] allowDomains = new String[3];
-//        allowDomains[0] = "http://localhost:4200";
-//        allowDomains[1] = "http://localhost:80";
-//        allowDomains[2] = "http://localhost:8080";
-//
-//        System.out.println("CORS configuration....");
-//        return new WebMvcConfigurer() {
-//            @Override
-//            public void addCorsMappings(CorsRegistry registry) {
-//                registry.addMapping("/**").allowedOrigins(allowDomains);
-//            }
-//        };
-//    }
 }
