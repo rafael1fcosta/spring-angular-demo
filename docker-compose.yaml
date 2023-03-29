@@ -8,6 +8,7 @@ services:
       dockerfile: backend.dockerfile
     ports:
       - "8080:80"
+    network_mode: "host"
   frontend:
     image: demo-ui
     container_name: demo-ui
@@ -16,5 +17,6 @@ services:
       dockerfile: frontend.dockerfile
     ports:
       - "80:80"
+    network_mode: "host"
     depends_on:
       - backend
